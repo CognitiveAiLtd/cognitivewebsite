@@ -465,7 +465,7 @@ export default function Home() {
         </div>
         <Image
           className="empowering-banner"
-          src="/art-ai-lt.jpg"
+          src="/art.jpg"
           alt="artificial-intelligence"
           width={1900}
           height={1035}
@@ -520,25 +520,22 @@ export default function Home() {
             />
             <Image
               className="futuristic"
-              src="/sound_ai_image.jpg"
-              alt="soundai"
+              src="/girlfriend.jpg"
+              alt="gf"
               width={895}
               height={1037}
               priority
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text">
-                <a href="http://sound.ai/">Sound.ai</a>
+                <a href="https://girlfriend.ai/">Girlfriend.ai</a>
               </h2>
               <p className="sound-text">
-                The entertainment sector was the first to experience significant
-                transformation and a complete overhaul through AI. With the use
-                of prompts, the process of creation has become seamless and much
-                more simplified at a generative level. Our goal is to develop a
-                disruptive product on <a href="http://sound.ai/">Sound.ai</a>{" "}
-                that will cover a broad range of applications. It can then be
-                connected to video or other art forms, according to the creator
-                {`'`}s preference.
+                Inspired by the movie {"'"}Her{"'"}, Girlfriend.ai will offer a
+                solution to those seeking female companionship and coaching with
+                chat and voice facilities. Our objective with this product is to
+                make real-world relationships smoother and more approachable,
+                while maintaining integrity and respect.
               </p>
             </div>
           </div>
@@ -554,7 +551,7 @@ export default function Home() {
             />
             <Image
               className="futuristic"
-              src="/home_ai_image.jpg"
+              src="/partner.jpg"
               alt="smart-home"
               width={895}
               height={1037}
@@ -562,18 +559,9 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text">
-                <a href="http://home.ai/">Home.ai</a>
+                <a href="http://partner.ai/">partner.ai</a>
               </h2>
-              <p className="sound-text">
-                Our most ambitious venture yet,{" "}
-                <a href="http://home.ai/">Home.ai</a> aims to simplify every
-                aspect of life at home. While maintaining integrity and
-                respecting the user’s privacy, we aim to enhance comfort,
-                security and entertainment using these technologies. From
-                assisting in the home search process to providing automation
-                tools, <a href="http://home.ai/">Home.ai</a> is poised to
-                revolutionize the concept of home.
-              </p>
+              <p className="sound-text"></p>
             </div>
           </div>
 
@@ -588,58 +576,30 @@ export default function Home() {
             />
             <Image
               className="futuristic"
-              src="/realestate_ai_image.jpg"
-              alt="realestate_ai_image"
+              src="/sound.jpg"
+              alt="soundai"
               width={895}
               height={1037}
               priority
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text1">
-                <a href="https://realestate.ai/">RealEstate.ai</a>
+                <a href="http://sound.ai/">Sound.ai</a>
               </h2>
               <p className="sound-text1">
-                The realty industry is in desperate need of a shake up and we
-                believe that AI technology will help facilitate a much more
-                streamlined and effective process. We intend to be on the
-                bleeding-edge through RealEstate.ai and will implement the best
-                solution to those seeking to buy, sell or rent a home.
+                The entertainment sector was the first to experience significant
+                transformation and a complete overhaul through AI. With the use
+                of prompts, the process of creation has become seamless and much
+                more simplified at a generative level. Our goal is to develop a
+                disruptive product on <a href="http://sound.ai/">Sound.ai</a>{" "}
+                that will cover a broad range of applications. It can then be
+                connected to video or other art forms, according to the creator
+                {`'`}s preference.
               </p>
             </div>
           </div>
 
           <div id="real-estate" className="sound">
-            <Image
-              className="logo float-end"
-              src="/logo.png"
-              alt="Logo"
-              width={250}
-              height={24}
-              priority
-            />
-            <Image
-              className="futuristic"
-              src="/gf_image.jpg"
-              alt="gf"
-              width={895}
-              height={1037}
-              priority
-            />
-            <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text1">
-                <a href="https://girlfriend.ai/">Girlfriend.ai</a>
-              </h2>
-              <p className="sound-text1">
-                Inspired by the movie {"'"}Her{"'"}, Girlfriend.ai will offer a
-                solution to those seeking female companionship and coaching with
-                chat and voice facilities. Our objective with this product is to
-                make real-world relationships smoother and more approachable,
-                while maintaining integrity and respect.
-              </p>
-            </div>
-          </div>
-
-          <div id="real-estate1" className="sound">
             <Image
               className="logo float-end"
               src="/logo.png"
@@ -657,43 +617,12 @@ export default function Home() {
               priority
             />
             <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text2">
+              <h2 className="sound-text1">
                 <a href="https://3d.ai/">3d.ai</a>
               </h2>
-              <p className="sound-text2">
+              <p className="sound-text1">
                 Closely linked to our Art.ai platform, this product will offer a
                 3D modelling generator through text and image prompts.
-              </p>
-            </div>
-          </div>
-
-          <div id="real-estate1" className="sound">
-            <Image
-              className="logo float-end"
-              src="/logo.png"
-              alt="Logo"
-              width={250}
-              height={24}
-              priority
-            />
-            <Image
-              className="futuristic"
-              src="/blueprint_ai.jpg"
-              alt="blueprint"
-              width={895}
-              height={1037}
-              priority
-            />
-            <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text2">
-                <a href="https://blueprint.ai/">Blueprint.ai</a>{" "}
-              </h2>
-              <p className="sound-text2">
-                Blueprint will represent architecture and plans, something that
-                LLMs (Large Language Models) already have a tremendous impact on
-                today. This should make an architect{`'`}s life much easier and
-                will help their artistic visions transform into reality much
-                more efficiently.
               </p>
             </div>
           </div>
@@ -701,7 +630,7 @@ export default function Home() {
 
         <div
           id="slide-action-sound"
-          className="grid gap-4 sm:grid-cols-1 lg:grid-cols-1"
+          className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2"
         >
           <div id="real-estate2" className="sound">
             <Image
@@ -713,8 +642,42 @@ export default function Home() {
               priority
             />
             <Image
+              className="futuristic"
+              src="/home_ai_image.jpg"
+              alt="smart-home"
+              width={895}
+              height={1037}
+              priority
+            />
+            <div className="w-full sound-info mx-auto">
+              <h2 className="sound-text3">
+                <a href="http://home.ai/">Home.ai</a>
+              </h2>
+              <p className="sound-text3">
+                Our most ambitious venture yet,{" "}
+                <a href="http://home.ai/">Home.ai</a> aims to simplify every
+                aspect of life at home. While maintaining integrity and
+                respecting the user’s privacy, we aim to enhance comfort,
+                security and entertainment using these technologies. From
+                assisting in the home search process to providing automation
+                tools, <a href="http://home.ai/">Home.ai</a> is poised to
+                revolutionize the concept of home.
+              </p>
+            </div>
+          </div>
+
+          <div id="real-estate2" className="sound">
+            <Image
+              className="logo float-end"
+              src="/logo.png"
+              alt="Logo"
+              width={250}
+              height={24}
+              priority
+            />
+            <Image
               className="blueprint-item"
-              src="/about-ai.jpg"
+              src="/about_ai_image.jpg"
               alt="about_ai_image"
               width={1900}
               height={1035}
