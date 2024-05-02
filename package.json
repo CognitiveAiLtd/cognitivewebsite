@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bradgarropy/next-google-analytics": "^1.0.2",
+    "@headlessui/react": "^1.7.18",
+    "@magicul/next-google-tag-manager": "^2.0.0",
+    "aos": "^3.0.0-beta.6",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "next": "13.4.12",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "scrolltrigger": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "@types/react": "18.2.57",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
