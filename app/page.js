@@ -394,7 +394,7 @@ export default function Home() {
               </p>
               <p id="para-text" className="mb-4 text-black dark:text-white">
                 The name {`'`}
-                <a href="https://cognitive.ai/">Cognitive.ai</a>
+                <Link href="https://cognitive.ai/">Cognitive.ai</Link>
                 {`'`} represents the human element of AI. We believe that any
                 advancement in the field should augment human skill and
                 creativity, not impede or pose a threat to it. It is also
@@ -411,7 +411,7 @@ export default function Home() {
                 heart.
               </p>
               <p id="para-text text-black dark:text-white">
-                We are <a href="https://cognitive.ai/">Cognitive.ai</a>
+                We are <Link href="https://cognitive.ai/">Cognitive.ai</Link>
               </p>
             </div>
           </div>
@@ -433,9 +433,9 @@ export default function Home() {
               <div className="w-full empowr-info mx-auto Innovations">
                 <h2>Empowering Lives Through Ai</h2>
                 <p>
-                  At <a href="https://cognitive.ai/">Cognitive.ai</a>, we are
-                  dedicated to addressing complex problems through advanced AI
-                  solutions that improve lives and make processes more
+                  At <Link href="https://cognitive.ai/">Cognitive.ai</Link>, we
+                  are dedicated to addressing complex problems through advanced
+                  AI solutions that improve lives and make processes more
                   efficient. Our mission has two main objectives: to enhance
                   individual productivity through AI-driven efficiency, and to
                   foster creativity and expression through innovative AI
@@ -476,17 +476,17 @@ export default function Home() {
             <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2 items-end">
               <div className="w-full empowr-info mx-auto art-inno">
                 <h2>
-                  <a href="http://art.ai/">Art.ai</a>
+                  <Link href="http://art.ai/">Art.ai</Link>
                 </h2>
                 <p>
                   We aim to create a groundbreaking social media platform called{" "}
-                  <a href="http://art.ai/">Art.ai</a>, specifically designed for
-                  AI Artists. Our main objective is to provide a robust and
-                  dynamic platform for AI artists to showcase their exceptional
-                  creations to a diverse and wide audience. By doing so, we hope
-                  to create a vibrant community that not only encourages
-                  artistic expression but also enables AI artists to be
-                  compensated for their efforts.
+                  <Link href="http://art.ai/">Art.ai</Link>, specifically
+                  designed for AI Artists. Our main objective is to provide a
+                  robust and dynamic platform for AI artists to showcase their
+                  exceptional creations to a diverse and wide audience. By doing
+                  so, we hope to create a vibrant community that not only
+                  encourages artistic expression but also enables AI artists to
+                  be compensated for their efforts.
                 </p>
               </div>
               <div className="logo-empower">
@@ -528,7 +528,7 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text">
-                <a href="https://girlfriend.ai/">Girlfriend.ai</a>
+                <Link href="https://girlfriend.ai/">Girlfriend.ai</Link>
               </h2>
               <p className="sound-text">
                 Inspired by the movie {"'"}Her{"'"}, Girlfriend.ai will offer a
@@ -559,7 +559,7 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text">
-                <a href="http://partner.ai/">partner.ai</a>
+                <Link href="http://partner.ai/">partner.ai</Link>
               </h2>
               <p className="sound-text">
                 <Link href="http://partner.ai/">partner.ai</Link> will serve as
@@ -591,16 +591,17 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text1">
-                <a href="http://sound.ai/">Sound.ai</a>
+                <Link href="http://sound.ai/">Sound.ai</Link>
               </h2>
               <p className="sound-text1">
                 The entertainment sector was the first to experience significant
                 transformation and a complete overhaul through AI. With the use
                 of prompts, the process of creation has become seamless and much
                 more simplified at a generative level. Our goal is to develop a
-                disruptive product on <a href="http://sound.ai/">Sound.ai</a>{" "}
-                that will cover a broad range of applications. It can then be
-                connected to video or other art forms, according to the creator
+                disruptive product on{" "}
+                <Link href="http://sound.ai/">Sound.ai</Link> that will cover a
+                broad range of applications. It can then be connected to video
+                or other art forms, according to the creator
                 {`'`}s preference.
               </p>
             </div>
@@ -625,7 +626,7 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text1">
-                <a href="https://3d.ai/">3d.ai</a>
+                <Link href="https://3d.ai/">3d.ai</Link>
               </h2>
               <p className="sound-text1">
                 Closely linked to our Art.ai platform, this product will offer a
@@ -658,16 +659,16 @@ export default function Home() {
             />
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text3">
-                <a href="http://home.ai/">Home.ai</a>
+                <Link href="http://home.ai/">Home.ai</Link>
               </h2>
               <p className="sound-text3">
                 Our most ambitious venture yet,{" "}
-                <a href="http://home.ai/">Home.ai</a> aims to simplify every
-                aspect of life at home. While maintaining integrity and
+                <Link href="http://home.ai/">Home.ai</Link> aims to simplify
+                every aspect of life at home. While maintaining integrity and
                 respecting the user’s privacy, we aim to enhance comfort,
                 security and entertainment using these technologies. From
                 assisting in the home search process to providing automation
-                tools, <a href="http://home.ai/">Home.ai</a> is poised to
+                tools, <Link href="http://home.ai/">Home.ai</Link> is poised to
                 revolutionize the concept of home.
               </p>
             </div>
