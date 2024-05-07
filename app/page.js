@@ -561,7 +561,13 @@ export default function Home() {
               <h2 className="sound-text">
                 <a href="http://partner.ai/">partner.ai</a>
               </h2>
-              <p className="sound-text"></p>
+              <p className="sound-text">
+                <a href="http://partner.ai/">partner.ai</a> will serve as the
+                base for <a href="https://girlfriend.ai/">Girlfriend.ai</a>, but
+                will encompass much more than just relationships. It will be
+                home to your digital companion for many fields and will expand
+                over time.
+              </p>
             </div>
           </div>
 
