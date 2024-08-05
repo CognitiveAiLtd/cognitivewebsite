@@ -801,6 +801,9 @@ section.cog-edge {
 .team-bio:hover .bio {
   transform: unset;
 }
+.team-bio img {
+  height: auto !important;
+}
 }
 
 
@@ -812,7 +815,9 @@ section.cog-edge {
 .team-bio:hover .bio {
   transform: unset;
 }
-
+.team-bio img {
+  height: auto !important;
+}
 .linkedin-bio
 {
   display: none;
