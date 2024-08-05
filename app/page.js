@@ -782,7 +782,7 @@ export default function Home() {
           <div className="team-bio">
             <Image
               className="futuristic w-full"
-              src="/vincent_team.jpg"
+              src="/vv-1.jpg"
               alt="vincent"
               width={480}
               height={680}
@@ -879,6 +879,45 @@ export default function Home() {
               </p>
               <div className="linkedin-bio">
                 <Link href="https://www.linkedin.com/in/andrea-naomi-campomanes-valdiviezo/">
+                  {" "}
+                  <Image
+                    className="futuristic"
+                    src="/linked.png"
+                    alt="linkedin"
+                    width={35}
+                    height={35}
+                    priority
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="team-bio">
+            <Image
+              className="futuristic w-full"
+              src="/anna-1.jpg"
+              alt="naoteam"
+              width={480}
+              height={680}
+              priority
+            />
+            <div className="bio">
+              <h2>Anna Yagci</h2>
+              <h4>Project Manager</h4>
+              <p>
+                With almost a decade of experience in Marketing and Brand
+                Management, Anna has played pivotal roles in various
+                multinational projects and led diverse teams. Her passion for
+                creativity and her enthusiasm for working in multicultural
+                environments have been the driving forces behind her career.
+                Seeking to leverage her skills while embracing new challenges,
+                Anna made a significant shift in her professional journey, which
+                led her to Cognitive.ai, where she is eagerly working as a
+                Project Manager.
+              </p>
+              <div className="linkedin-bio">
+                <Link href="#">
                   {" "}
                   <Image
                     className="futuristic"
