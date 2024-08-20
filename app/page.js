@@ -746,8 +746,8 @@ export default function Home() {
           <div className="team-bio">
             <Image
               className="futuristic w-full"
-              src="/andy_image.jpg"
-              alt="andy"
+              src="/andy-booth.jpg"
+              alt="andybooth"
               width={480}
               height={680}
               priority
@@ -782,7 +782,7 @@ export default function Home() {
           <div className="team-bio">
             <Image
               className="futuristic w-full"
-              src= "/vv-11.jpg"
+              src="/vv-11.jpg"
               alt="vincent"
               width={480}
               height={680}
