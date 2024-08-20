@@ -109,7 +109,7 @@ body {
   .preload-container h1 {
     font-size: 60px;
   }
-    .team.grid.gap-0.sm\:grid-cols-2.lg\:grid-cols-4 {
+  .team.grid.gap-0.sm\:grid-cols-2.lg\:grid-cols-4 {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
 .team-bio img {
@@ -607,6 +607,26 @@ section.cog-edge {
   overflow: hidden !important;
   transform: none !IMPORTANT;
 }
+
+
+
+.bio::-webkit-scrollbar-thumb {
+  background: #007cba;
+}
+.bio::-webkit-scrollbar {
+  width: 2px;
+  background: white;
+}
+
+.team-bio:hover .bio
+{
+  overflow-y: auto;
+  max-height: 360px;
+}
+.team-bio:hover .bio .linkedin-bio {
+  position: unset;
+  margin-top: 10px;
+}
 }
 
 @media  only screen and (min-width:1024px) and (max-width:1366px) {
@@ -801,8 +821,30 @@ section.cog-edge {
 .team-bio:hover .bio {
   transform: unset;
 }
+
 .team-bio img {
   height: auto !important;
+}
+.bio::-webkit-scrollbar-thumb {
+  background: #007cba;
+}
+.bio::-webkit-scrollbar {
+  width: 2px;
+  background: white;
+}
+
+.team-bio:hover .bio
+{
+  overflow-y: auto;
+  max-height: 360px;
+}
+ 
+.team-bio:hover:after
+{
+  display: none;
+}
+.team-bio:hover .bio .linkedin-bio {
+  position: unset;
 }
 }
 
@@ -812,12 +854,14 @@ section.cog-edge {
     padding: 0 10px;
 }
 
-.team-bio:hover .bio {
-  transform: unset;
-}
 .team-bio img {
   height: auto !important;
 }
+
+.team-bio:hover .bio {
+  transform: unset;
+}
+
 .linkedin-bio
 {
   display: none;
@@ -1090,7 +1134,10 @@ html
 .team-bio img {
   height: 100%;
 }
+
 .team.grid.gap-0.sm\:grid-cols-2.lg\:grid-cols-4 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+  overflow: hidden;
 }
+
 
