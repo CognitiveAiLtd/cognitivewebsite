@@ -782,7 +782,7 @@ export default function Home() {
           <div className="team-bio">
             <Image
               className="futuristic w-full"
-              src="/vv-1.jpg"
+              src= "/vv-11.jpg"
               alt="vincent"
               width={480}
               height={680}
