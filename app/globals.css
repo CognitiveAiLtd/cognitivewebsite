@@ -113,6 +113,7 @@ body {
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
 .team-bio img {
+
   height: auto !important;
 }
 }
@@ -1136,7 +1137,6 @@ html
 }
 
 .team.grid.gap-0.sm\:grid-cols-2.lg\:grid-cols-4 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
   overflow: hidden;
 }
 

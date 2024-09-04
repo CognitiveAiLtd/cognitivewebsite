@@ -819,45 +819,6 @@ export default function Home() {
           <div className="team-bio">
             <Image
               className="futuristic w-full"
-              src="/andy-p.jpg"
-              alt="andy consultant"
-              width={480}
-              height={680}
-              priority
-            />
-            <div className="bio">
-              <h2>Andy Pardoe</h2>
-              <h4>Ai Consultant</h4>
-              <p>
-                Andy Pardoe has been involved in the AI industry and machine
-                learning for nearly 27 years. During this time, he has
-                experienced many challenges due to the technology and
-                infrastructure not aligning with the vision of what it could
-                become. However, recent advancements have transformed the
-                landscape, and Andy is now highly sought after as a business
-                advisor and a respected member of the AI community. Andy
-                connected with the other Andy through one of his registered
-                domains and now collaborates with Cognitive in an advisory
-                capacity.
-              </p>
-              <div className="linkedin-bio">
-                <Link href="https://www.linkedin.com/in/andypardoe/">
-                  <Image
-                    className="futuristic"
-                    src="/linked.png"
-                    alt="linkedin"
-                    width={35}
-                    height={35}
-                    priority
-                  />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="team-bio">
-            <Image
-              className="futuristic w-full"
               src="/nao_team_.jpg"
               alt="naoteam"
               width={480}
@@ -904,7 +865,7 @@ export default function Home() {
             />
             <div className="bio">
               <h2>Anna Yagci</h2>
-              <h4>Project Manager</h4>
+              <h4>COO</h4>
               <p>
                 With almost a decade of experience in Marketing and Brand
                 Management, Anna has played pivotal roles in various
