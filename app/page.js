@@ -188,7 +188,23 @@ export default function Home() {
         // },
       },
     });
-
+    gsap.from(".myart-inno", {
+      y: 200,
+      opacity: 0,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".myart-inno",
+        start: "top 90%",
+        end: "top 60%",
+        scrub: 4,
+        toggleActions: "restart none none none",
+        // markers: {
+        //   startColor: "white",
+        //   endColor: "white",
+        //   fontSize: "2rem",
+        // },
+      },
+    });
     /*The Cognitive.ai Edge gsap Animate */
     gsap.from(".para-text-section2", {
       y: 300,
@@ -464,11 +480,12 @@ export default function Home() {
           <h2 className="text-black dark:text-white">Our Ai Innovations</h2>
         </div>
         <Image
-          className="empowering-banner"
-          src="/art.jpg"
+          className="w-full empowering-banner"
+          src="/neo_image.png"
           alt="artificial-intelligence"
-          width={1900}
-          height={1035}
+          width={1500}
+          height={1500}
+          quality={100}
           priority
         />
         <div className="container mx-auto">
@@ -476,9 +493,9 @@ export default function Home() {
             <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2 items-end">
               <div className="w-full empowr-info mx-auto art-inno">
                 <h2>
-                  <Link href="http://art.ai/">Art.ai</Link>
+                  <Link href="http://neo.ai/">Neo.ai</Link>
                 </h2>
-                <p>
+                {/* <p>
                   We aim to create a groundbreaking social media platform called{" "}
                   <Link href="http://art.ai/">Art.ai</Link>, specifically
                   designed for AI Artists. Our main objective is to provide a
@@ -487,6 +504,17 @@ export default function Home() {
                   so, we hope to create a vibrant community that not only
                   encourages artistic expression but also enables AI artists to
                   be compensated for their efforts.
+                </p> */}
+                <p className="sound-text1">
+                  The entertainment sector was the first to experience significant
+                  transformation and a complete overhaul through AI. With the use
+                  of prompts, the process of creation has become seamless and much
+                  more simplified at a generative level. Our goal is to develop a
+                  disruptive product on{" "}
+                  <Link href="http://neo.ai/">Neo.ai</Link> that will cover a
+                  broad range of applications. It can then be connected to video
+                  or other art forms, according to the creator
+                  {`'`}s preference.
                 </p>
               </div>
               <div className="logo-empower">
@@ -499,6 +527,75 @@ export default function Home() {
                   priority
                 />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="sound-home mb-4">
+
+        <div
+          id="slide-action-sound"
+          className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2"
+        >
+
+          <div id="real-estate2" className="sound">
+            <Image
+              className="logo float-end"
+              src="/logo.png"
+              alt="Logo"
+              width={250}
+              height={24}
+              priority
+            />
+            <Image
+              className="blueprint-item w-full h-full object-fill"
+              src="/bcn.jpg"
+              alt="about_ai_image"
+              width={1900}
+              height={1035}
+              priority
+            />
+            <div className="w-full sound-info mx-auto">
+              <h2 className="sound-text3"><Link href="http://bcn.com/">Bcn.com</Link></h2>
+              <p className="sound-text3">
+                The latest website of the city of Barcelona, Spain.
+                It serves as a central digital hub for residents,
+                visitors, and businesses, offering a wealth of information
+                about the city{`'`}s services, events, culture, and public administration.
+                The site provides updates on cultural activities, festivals,
+                and public initiatives, positioning Barcelona as a vibrant,
+                modern city with a rich history and dynamic future.
+              </p>
+            </div>
+          </div>
+          <div id="real-estate2" className="sound">
+            <Image
+              className="logo float-end"
+              src="/logo.png"
+              alt="Logo"
+              width={250}
+              height={24}
+              priority
+            />
+            <Image
+              className="blueprint-item"
+              src="/about_ai_image.jpg"
+              alt="about_ai_image"
+              width={1900}
+              height={1035}
+              priority
+            />
+            <div className="w-full sound-info mx-auto">
+              <h2 className="sound-text3">Aboutai.com </h2>
+              <p className="sound-text3">
+                About AI is a product that differs from our others because it
+                uses a .com domain name, which is more suitable for a mass
+                audience. As part of our mission, we feel that educating the
+                public to AI{`'`}s nature is of critical importance, so we will
+                offer a free resource that provides bite-sized videos to make
+                understanding AI easy and fun.
+              </p>
             </div>
           </div>
         </div>
