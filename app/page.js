@@ -118,13 +118,13 @@ export default function Home() {
     });
 
     gsap.from(".sound-text1", {
-      y: 300,
+      y: 100,
       opacity: 0,
-      duration: 3,
+      duration: 1,
       scrollTrigger: {
         trigger: "#real-estate",
-        start: "top 50%",
-        end: "top 20%",
+        start: "top 99%",
+        end: "top 50%",
         scrub: 4,
         toggleActions: "restart none none none",
         // markers: {
@@ -172,13 +172,13 @@ export default function Home() {
     });
 
     gsap.from(".art-inno", {
-      y: 300,
+      y: 70,
       opacity: 0,
       duration: 3,
       scrollTrigger: {
         trigger: ".art-inno",
-        start: "top 90%",
-        end: "top 60%",
+        start: "top 99%",
+        end: "top 50%",
         scrub: 4,
         toggleActions: "restart none none none",
         // markers: {
@@ -534,7 +534,7 @@ export default function Home() {
             />
             <Image
               className="blueprint-item w-full h-full object-fill"
-              src="/bcn.jpg"
+              src="/bcn_with_logo.png"
               alt="about_ai_image"
               width={1900}
               height={1035}
@@ -636,13 +636,7 @@ export default function Home() {
               <h2>Andy Booth</h2>
               <h4>Creative</h4>
               <p>
-                Andy{`'`}s background in digital assets has played an important
-                role in shaping the brand names that Cognitive will create. His
-                passion for AI and technology have led him to dedicate to this
-                calling which represents a serious milestone in the evolution of
-                human civilization. Andy is deeply aware of the ethical
-                implications of AI technologies and is dedicated to upholding
-                the integrity of Cognitive AI{`'`}s offerings.
+              Andy{`'`}s background in digital assets led him to conceive and create <Link href="https://cognitive.ai/">Cognitive.ai</Link>. Since AI has become central to the evolution of the internet and digital processes, Andy chose to leverage its power and offer products and solutions to a wider audience.
               </p>
               <div className="linkedin-bio">
                 <Link href="https://www.linkedin.com/in/andycognitive/">
@@ -672,13 +666,7 @@ export default function Home() {
               <h2>Vincent Valentine</h2>
               <h4>Ai Consultant</h4>
               <p>
-                Vincent has more than 20 years of experience in starting and
-                selling digital and tangible businesses. His values are centered
-                around creating a positive and forward-thinking team. He is
-                passionate about AI, bots, and the latest technology, which is
-                why Vincent eagerly took on the role of CEO at Cognitive. We
-                will be developing numerous ideas based on our impressive domain
-                catalog.
+              Vincent has more than 20 years of experience with online businesses. His focus is on creating positive and forward-thinking AI-centric products. Vince is a consultant and advisor to Cognitive.
               </p>
               <div className="linkedin-bio">
                 <Link href="https://www.linkedin.com/in/bitvalentine/">
