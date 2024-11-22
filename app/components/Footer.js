@@ -19,7 +19,7 @@ export default function Footer() {
               <circle cx="12" cy="10" r="3" />
             </svg>{" "}
             <p className="text-black dark:text-white">
-              <a href="mailto:contact@cognitive.ai">contact(@)cognitive.ai</a>
+              <a href="mailto:team@cognitive.ai">team(@)cognitive.ai</a>
               <br />
               Suite 4, 4 Giro’s Passage, Gibraltar GX11 1AA
             </p>

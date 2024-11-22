@@ -534,7 +534,7 @@ export default function Home() {
             />
             <Image
               className="blueprint-item w-full h-full object-fill"
-              src="/bcn_with_logo.png"
+              src="/bcn.jpg"
               alt="about_ai_image"
               width={1900}
               height={1035}
