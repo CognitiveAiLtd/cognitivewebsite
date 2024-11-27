@@ -620,7 +620,7 @@ export default function Home() {
               <h2 className="sound-text3 text-4xl"><Link href="https://simulation.com/">simulation.com</Link> </h2>
               <p className="sound-text3">
                 <Link href="https://simulation.com/">simulation.com</Link> 
-                is a blog and information resource brought to you by the minds of 
+  {" "}is a blog and information resource brought to you by the minds of 
                 <Link href="https://cognitive.ai/">Cognitive.ai</Link>. 
                 As technophiles, we discuss simulation theory and how that might impact our daily reality.
               </p>
