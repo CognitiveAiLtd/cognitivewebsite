@@ -491,14 +491,14 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="empower-main">
             <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2 items-end">
-              <div className="w-full rounded-lg px-4 shadow-2xl backdrop-blur-sm	 empowr-info mx-auto art-inno">
-              <h2>
+              <div className="w-full empowr-info mx-auto Innovations">
+                <h2>
                   <Link href="http://neo.ai/">Neo.ai</Link>
                 </h2>
                 <p className="sound-text1">
-                <Link href="http://neo.ai/">Neo.ai</Link> will be an AI-powered sound wellness app designed to alleviate stress and
-                 help you deal with the daily grind. 
-                Talk to Neo about health-related issues, objectives and creating a brighter future.
+                  <Link href="http://neo.ai/">Neo.ai</Link> will be an AI-powered sound wellness app designed to alleviate stress and
+                  help you deal with the daily grind.
+                  Talk to Neo about health-related issues, objectives and creating a brighter future.
                 </p>
               </div>
               <div className="logo-empower">
@@ -533,7 +533,7 @@ export default function Home() {
               priority
             />
             <Image
-              className="blueprint-item w-full h-full object-fill"
+              className="blueprint-item w-full object-fill"
               src="/bcn.jpg"
               alt="about_ai_image"
               width={1900}
@@ -573,7 +573,7 @@ export default function Home() {
             <div className="w-full sound-info mx-auto">
               <h2 className="sound-text3"><Link href="http://aboutai.com/">Aboutai.com</Link> </h2>
               <p className="sound-text3">
-              <Link href="http://aboutai.com/">About AI</Link> is a product that differs from our others because it
+                <Link href="http://aboutai.com/">About AI</Link> is a product that differs from our others because it
                 uses a .com domain name, which is more suitable for a mass
                 audience. As part of our mission, we feel that educating the
                 public to AI{`'`}s nature is of critical importance, so we will
@@ -582,10 +582,59 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+        </div>
+        <div
+          id="slide-action-sound"
+          className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2"
+        >
+
         </div>
       </section>
 
+      <section className="sound-home mb-4">
 
+        <div
+          id="slide-action-sound"
+          className="grid gap-4 grid-cols-1"
+        >
+
+          <div id="real-estate2" className="sound">
+            <Image
+              className="logo float-end"
+              src="/logo.png"
+              alt="Logo"
+              width={250}
+              height={24}
+              priority
+            />
+            <Image
+              className="blueprint-item w-full"
+              src="/simulation-cognitive2.png"
+              alt="about_ai_image"
+              width={1900}
+              height={735}
+              priority
+            />
+            <div className="w-full sound-info mx-auto">
+              <h2 className="sound-text3"><Link href="https://simulation.com/">simulation.com</Link> </h2>
+              <p className="sound-text3">
+                <Link href="https://simulation.com/">simulation.com</Link> 
+                is a blog and information resource brought to you by the minds of 
+                <Link href="https://cognitive.ai/">Cognitive.ai</Link>. 
+                As technophiles, we discuss simulation theory and how that might impact our daily reality.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div
+          id="slide-action-sound"
+          className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2"
+        >
+
+        </div>
+      </section>
       <section
         className="cog-edge text-center text-white para-text-section2"
         id="about"
@@ -636,7 +685,7 @@ export default function Home() {
               <h2>Andy Booth</h2>
               <h4>Creative</h4>
               <p>
-              Andy{`'`}s background in digital assets led him to conceive and create <Link href="https://cognitive.ai/">Cognitive.ai</Link>. Since AI has become central to the evolution of the internet and digital processes, Andy chose to leverage its power and offer products and solutions to a wider audience.
+                Andy{`'`}s background in digital assets led him to conceive and create <Link href="https://cognitive.ai/">Cognitive.ai</Link>. Since AI has become central to the evolution of the internet and digital processes, Andy chose to leverage its power and offer products and solutions to a wider audience.
               </p>
               <div className="linkedin-bio">
                 <Link href="https://www.linkedin.com/in/andycognitive/">
@@ -666,7 +715,7 @@ export default function Home() {
               <h2>Vincent Valentine</h2>
               <h4>Ai Consultant</h4>
               <p>
-              Vincent has more than 20 years of experience with online businesses. His focus is on creating positive and forward-thinking AI-centric products. Vince is a consultant and advisor to Cognitive.
+                Vincent has more than 20 years of experience with online businesses. His focus is on creating positive and forward-thinking AI-centric products. Vince is a consultant and advisor to Cognitive.
               </p>
               <div className="linkedin-bio">
                 <Link href="https://www.linkedin.com/in/bitvalentine/">
