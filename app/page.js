@@ -619,7 +619,7 @@ export default function Home() {
             <div className="w-full min-h-64 md:min-h-fit bg-black p-5 text-white py-5 mx-auto lg:absolute lg:z-10 lg:bottom-8 lg:bg-transparent">
               <h2 className="sound-text3 text-4xl"><Link href="https://simulation.com/">simulation.com</Link> </h2>
               <p className="sound-text3">
-                <Link href="https://simulation.com/">simulation.com</Link> 
+                <Link href="https://simulation.com/">simulation.com </Link> 
                 is a blog and information resource brought to you by the minds of 
                 <Link href="https://cognitive.ai/">Cognitive.ai</Link>. 
                 As technophiles, we discuss simulation theory and how that might impact our daily reality.
