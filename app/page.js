@@ -533,15 +533,15 @@ export default function Home() {
               priority
             />
             <Image
-              className="blueprint-item w-full object-fill"
+              className="blueprint-item w-full object-fill h-80 lg:h-full"
               src="/bcn.jpg"
               alt="about_ai_image"
               width={1900}
               height={1035}
               priority
             />
-            <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text3"><Link href="http://bcn.com/">Bcn.com</Link></h2>
+            <div className="w-full min-h-[20rem] md:min-h-[28rem] lg:min-h-fit bg-black p-5 text-white py-5 mx-auto lg:absolute lg:z-10 lg:bottom-8 lg:bg-transparent">
+              <h2 className="sound-text3 text-4xl"><Link href="http://bcn.com/">Bcn.com</Link></h2>
               <p className="sound-text3">
                 The latest website of the city of Barcelona, Spain.
                 It serves as a central digital hub for residents,
@@ -563,15 +563,15 @@ export default function Home() {
               priority
             />
             <Image
-              className="blueprint-item"
+              className="blueprint-item w-full object-fill h-80 lg:h-full"
               src="/about_ai_image.jpg"
               alt="about_ai_image"
               width={1900}
               height={1035}
               priority
             />
-            <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text3"><Link href="http://aboutai.com/">Aboutai.com</Link> </h2>
+            <div className="w-full min-h-[20rem] md:min-h-[28rem] lg:min-h-fit bg-black p-5 text-white py-5 mx-auto lg:absolute lg:z-10 lg:bottom-8 lg:bg-transparent">
+              <h2 className="sound-text3 text-4xl"><Link href="http://aboutai.com/">Aboutai.com</Link> </h2>
               <p className="sound-text3">
                 <Link href="http://aboutai.com/">About AI</Link> is a product that differs from our others because it
                 uses a .com domain name, which is more suitable for a mass
@@ -616,8 +616,8 @@ export default function Home() {
               height={735}
               priority
             />
-            <div className="w-full sound-info mx-auto">
-              <h2 className="sound-text3"><Link href="https://simulation.com/">simulation.com</Link> </h2>
+            <div className="w-full min-h-64 md:min-h-fit bg-black p-5 text-white py-5 mx-auto lg:absolute lg:z-10 lg:bottom-8 lg:bg-transparent">
+              <h2 className="sound-text3 text-4xl"><Link href="https://simulation.com/">simulation.com</Link> </h2>
               <p className="sound-text3">
                 <Link href="https://simulation.com/">simulation.com</Link> 
                 is a blog and information resource brought to you by the minds of 
