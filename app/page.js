@@ -621,7 +621,7 @@ export default function Home() {
               <p className="sound-text3">
                 <Link href="https://simulation.com/">simulation.com</Link> 
                 {" "}is a blog and information resource brought to you by the minds of 
-                <Link href="https://cognitive.ai/">Cognitive.ai </Link>. 
+                <Link href="https://cognitive.ai/"> Cognitive.ai</Link>. 
                 As technophiles, we discuss simulation theory and how that might impact our daily reality. Explore ways to deal with life{"'"}s challenges and ideas on how to break the chains of the material world.
               </p>
             </div>
